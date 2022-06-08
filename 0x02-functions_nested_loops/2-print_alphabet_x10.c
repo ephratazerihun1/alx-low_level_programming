@@ -1,22 +1,26 @@
 #include "main.h"
 
 /**
-* _islower - functin for comparison
-* @c: contains value to be compared
-* Return:  0.
+* print_alphabet_x10 - print alphabet
+*
+* Return: sucess 0.
 */
-int _islower(int c)
+void print_alphabet_x10(void)
 
 {
-
-if (c > 'a' && c < 'z')
+int alphabet;
+int count;
+count = 0;
+while (count < 10)
 {
-return (1);
+for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
+{
+_putchar(alphabet);
 }
 
-else
-{
-return (0);
+count++;
+_putchar('\n');
 }
+
 
 }
