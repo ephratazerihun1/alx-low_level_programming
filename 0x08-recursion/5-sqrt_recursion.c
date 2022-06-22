@@ -3,7 +3,7 @@
 *_evaluate - evaluate function sqrt
 *@i: interger
 *@n: interger
-*Return: evaluate sqrt 
+*Return: evaluate sqrt
 */
 int _evaluate(int i, int n)
 {
